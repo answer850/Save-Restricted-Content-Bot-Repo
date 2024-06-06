@@ -15,12 +15,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("23124867", default=None, cast=int)
-API_HASH = config("22cbd5a100dcd9892c89e8adee481541", default=None)
-BOT_TOKEN = config("7255509548:AAFDvUvE0vCTsnYgWms_UKT127gigUjyS2A", default=None)
-SESSION = config("BQFg24MAtXjjtl43VEUrVhjPN7GjVc50s3e_wsPQ7Ha_3lDiRsHGp--Brn3Fz4F37t42deLaNyJuCULfOABmuVIX8zECcEMBBlvEeywF5qcfmVvLimk6BtYZNNlbDaaGJrsq7Q2lY7mzYw0yp8BFS2tH4L1CuIjkryAm0vc19Fj5VuTCCo-5AYHx1Z73B5F80fNgmZuhEjdDTlU_uukkZ8xqzggAAQGUAdky7e_BeJQlVcRtA5kH9lKk_AhjWs4-9jJd0STOslh3rqyqYt9NNzWwGQZuY8uIGs2fI-IDfZ_4r1Hi7KaPkCvm4xssWtLlLghiFtsHqLgIWTE812OH63QHsm6WkQAAAAEuTYqwAA", default=None)
-FORCESUB = config("manu85O", default=None)
-AUTH = config("5071801008", default=None)
+API_ID = config("API_ID", default=23124867, cast=int)
+API_HASH = config("API_HASH", default=22cbd5a100dcd9892c89e8adee481541)
+BOT_TOKEN = config("BOT_TOKEN", default=7255509548:AAFDvUvE0vCTsnYgWms_UKT127gigUjyS2A)
+SESSION = config("SESSION", default=BQFg24MAtXjjtl43VEUrVhjPN7GjVc50s3e_wsPQ7Ha_3lDiRsHGp--Brn3Fz4F37t42deLaNyJuCULfOABmuVIX8zECcEMBBlvEeywF5qcfmVvLimk6BtYZNNlbDaaGJrsq7Q2lY7mzYw0yp8BFS2tH4L1CuIjkryAm0vc19Fj5VuTCCo-5AYHx1Z73B5F80fNgmZuhEjdDTlU_uukkZ8xqzggAAQGUAdky7e_BeJQlVcRtA5kH9lKk_AhjWs4-9jJd0STOslh3rqyqYt9NNzWwGQZuY8uIGs2fI-IDfZ_4r1Hi7KaPkCvm4xssWtLlLghiFtsHqLgIWTE812OH63QHsm6WkQAAAAEuTYqwAA)
+FORCESUB = config("FORCESUB", default=manu85O)
+AUTH = config("AUTH", default=5071801008)
 SUDO_USERS = []
 
 if len(AUTH) != 0:
